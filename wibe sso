@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>SSO Universitas Diponegoro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url(https://wallpapers.com/images/hd/violet-evergarden-background-grqfu0uj1nhhvtjg.jpg) no-repeat center center fixed;
+      background-size: cover;
+      backdrop-filter: blur(3px);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      background-color: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 350px;
+    }
+
+    .login-box img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    .login-box h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .login-box h3 {
+      font-size: 18px;
+      color: #555;
+      margin-top: 5px;
+    }
+
+    .login-box p {
+      margin: 20px 0 10px;
+      color: #666;
+    }
+
+    .login-box input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .login-box .login-btn {
+      background-color: #2b63ad;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .login-box .reset-btn {
+      background-color: #e53935;
+      color: white;
+    }
+
+    .login-box .link {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+
+    .login-box .link a {
+      color: #d50000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .login-box .link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+     <img src="https://upload.wikimedia.org/wikipedia/id/9/9b/UNDIPOfficial.png" alt="Logo Universitas Diponegoro"
+class="logo">
+      <h2>Single Sign On (SSO)</h2>
+      <h3>Universitas Diponegoro</h3>
+      <p>Silahkan Masuk</p>
+      <input type="text" placeholder="NIM/NIP/username/e-mail official Undip">
+      <button class="login-btn">🔒 LOGIN</button>
+      <button class="reset-btn">💬 Reset Password</button>
+      <div class="link">
+        Belum memiliki akun? <a href="#">Daftar sekarang!</a><br>
+        <a href="#">Pendaftaran alumni klik disini</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
